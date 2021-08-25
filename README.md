@@ -2,22 +2,26 @@
 
 ## Index Page
 
-* Menu 
 <hr>
-<br>
-<img src="/images/spotifyprint/menu.png" width="50%"></img>
-<br>
-* Banner
+
+1. Menu 
+
+<img src="/images/spotifyprint/menu.png" width="500" height="150" style="border:solid 2px black;"></img>
+
 <hr>
-<br>
-<img src="/images/spotifyprint/banner.png" width="50%"></img>
-<br>
-* Promoções
+
+2. Banner
+
+<img src="/images/spotifyprint/banner.png" width="500" height="250" style="border:solid 2px black;"></img>
+
 <hr>
-<br>
-<img src="/images/spotifyprint/plano.png" width="50%"></img>
-<br>
-* Footer
+
+3. Promoções
+
+<img src="/images/spotifyprint/plano.png" width="500" height="350" style="border:solid 2px black;"></img>
+
 <hr>
-<br>
-<img src="/images/spotifyprint/footer.png" width="50%"></img>
+
+4. Footer
+
+<img src="/images/spotifyprint/footer.png" width="500" height="250" style="border:solid 2px black;"></img>
