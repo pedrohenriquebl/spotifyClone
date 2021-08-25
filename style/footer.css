@@ -1,0 +1,182 @@
+
+.footer {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.menu-rodape {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.menu-rodape a :hover{
+    color: #1ed760;
+}
+
+
+.menu-rodape img{
+    width: 132px;
+    height: 41,89px;
+}
+
+.menu-rodape-empresa  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-rodape-empresa a {
+    font-size: 15px;
+    position: left;
+}
+
+.menu-rodape-empresa span {
+    color: #919496;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.menu-rodape-comunidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-rodape-comunidades a {
+    font-size: 15px;
+    position: left;
+}
+
+.menu-rodape-comunidades span {
+    color: #919496;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.menu-rodape-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-rodape-links a {
+    font-size: 15px;
+    position: left; 
+    margin-left: 0px;   
+}
+
+.menu-rodape-links span {
+    color: #919496;
+    margin-right: 200px;
+    font-size: 12px;
+}
+
+.menu-socialmedia ul{
+    display: flex;
+    margin-right: 45px;
+}
+
+.menu-socialmedia li{    
+  
+    margin: 10px auto;
+}
+
+.instagram-border {    
+    border-radius: 50%;   
+    width: 49.99px;
+    height: 49.99px;
+    background: #222326;   
+    margin: 0px 5px 0px 0px;
+}
+
+.twitter-border {    
+    border-radius: 50%;    
+    width: 49.99px;
+    height: 49.99px;
+    background: #222326;    
+    margin: 0px 5px 0px 0px;
+}
+
+.facebook-border {    
+    border-radius: 50%;    
+    width: 49.99px;
+    height: 49.99px;
+    background: #222326;    
+    margin: 0px 6px 0px 0px;
+}
+
+.lista-fim a {
+    color: white
+}
+
+.instagram {
+    background: no-repeat url(../images/sessao1/instagram.svg), grey;
+    /* background-repeat: no-repeat; */
+    cursor: pointer;    
+    width: 25.99px;
+    height: 25.99px;   
+}
+
+
+.twitter {
+    background: no-repeat url(../images/sessao1/twitter.svg), azure;    
+    cursor: pointer;    
+    width: 25.99px;
+    height: 25.99px;    
+}
+
+.facebook {
+    background: no-repeat url(../images/sessao1/facebook.svg), azure;  
+    cursor: pointer;    
+    width: 25.99px;
+    height: 25.99px;     
+}
+
+.instagram-border :hover{
+    background-color: #1ed760;
+}
+
+.twitter-border :hover{
+    background-color: #1ed760;
+}
+
+.facebook-border :hover{
+    background-color: #1ed760;
+}
+
+.legenda-fim ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+.lista-fim :hover{
+    color: #1ed760;
+}
+
+
+.lista-fim a{
+    display: flex;    
+    font-family: "gothamBold";
+    font-size: 10px;
+    padding: 10px;
+    color: #919496;
+    margin-bottom: 40px;
+    
+}
+
+.spotify {
+    font-family: "gothamBold";
+    font-size: 10px;
+    color: #919496;
+    margin-left: 550px;
+}
+
+.espacamento-footer {
+    height: 50px;
+}
+

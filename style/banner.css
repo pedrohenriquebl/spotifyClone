@@ -1,0 +1,124 @@
+
+.inscricao {
+    background-color: #1d75de;
+    padding: 50px 200px 15px 320px;
+    font-family: "gothamBold";
+} 
+
+.inscricao h1{    
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    font-family: "gothamBold";
+}
+
+.inscricao h2{    
+    font-size: 1.3em;
+    color: #fff;
+    margin-bottom: 50px;    
+}
+
+.inscricao h3{
+    font-size: 0.7em;
+    color:#fff;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.button-comecar {
+    background-color: black;
+    color: #fff;
+    border: 2px solid black; 
+    font-weight: bold;   
+}
+
+.button-planos {
+    color: white;
+    background-color: #1d75de;
+    border: 2px solid #fff; 
+    font-weight: bold;      
+}
+
+.button-planos.button-comecar, a {
+    text-decoration: none;    
+}
+
+button {     
+    letter-spacing: 2px;  
+    border: 2px;    
+    padding: 15px 32px;
+    font-size: 1em;
+    border-radius: 12em;    
+}
+
+button :hover{
+    font-size: 13pt;
+}
+
+.article-premium {
+    margin-left: 15%;
+    width: 1200px;
+}
+
+.premium {
+    margin: auto;
+}
+
+.premium li {    
+    display: block;
+}
+
+.sessao-premium{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.sessao-premium h2{    
+    display: block;
+    color: black;
+    font-size: 2.5em;
+    font-family: "gothamBold";
+    margin: auto;
+    width: 50%;
+}
+
+.lista-premium {    
+    display: flex;
+    justify-content: space-around;    
+}
+
+.lista-premium li {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.lista-premium img {
+    display: block;
+    width: 142px;
+    height: 142px;
+    margin-left: 10px;
+}
+
+.legenda {    
+    display: block;
+    text-align: center;
+}
+
+.legenda-premium1, p {
+    display: inline-block;
+    font-family: "gothamBold";
+    font-size: 1.4em;
+    line-height: 1.3em; 
+    padding: 0px;  
+}
+
+.legenda-premium2, p {
+    padding: 0px;
+    font-family: "gothamBold";
+    font-size: 0.9em;    
+    line-height: 1.3em;   
+}

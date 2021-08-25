@@ -1,0 +1,192 @@
+
+.planos {
+    background-color: #EFEFF0;   
+    height: 990px;
+}
+
+.sessao-plano {
+    display: block;
+    margin: 40px auto;
+    max-width: 60%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.sessao-plano li {
+    list-style: none;
+}
+
+.sessao-plano h2 {    
+    display: block;
+    font-size: 2.5em;
+    letter-spacing: -1.6px;
+    font-family: "gothamBold";  
+    margin: auto;
+    width: 40%;  
+    text-align: center;
+}
+
+.sessao-plano h3{    
+    display: block;
+    font-size: 1em;    
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;    
+}
+
+.pagamentos ul{
+    display: flex;   
+    justify-content: center;
+    
+}
+
+.bandeiras img {
+    width:29px;
+    height:20px;
+}
+
+.bandeiras p {
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+}
+
+.cabecalho-plano {
+    position: absolute;
+    left: 375px;
+    bottom: -255px;
+}
+
+.cabecalho-plano p{
+    border-radius: 5px 5px 5px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    width: 245px;
+    font-size: 0.8em;
+    font-weight: 200;
+}
+
+.corpo-pagamentos {    
+    display: flex;
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;    
+    border-radius: 10px 10px 0px;    
+}
+
+.plano-atual{    
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;    
+    margin-right: 10px;
+    border-radius: 10px 10px 0px 0px;
+    width: 95%;    
+    margin-bottom: 0px;       
+}
+
+.pagamento-unico span{
+    font-family: "gothamBold";
+    font-size: 14px;
+    color: rgb(46, 119, 208);
+    border: 1px solid rgb(46, 119, 208);
+    border-radius: 5px 5px 5px;
+    padding: 5px;
+    text-align: left;
+    margin-left: -30px;      
+    
+}
+
+.plano-atual h3{
+    font-family: "gothamBold";
+    font-size: 1.4em;
+    text-align: left;    
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-top: 0px
+}
+
+.plano-atual p {
+    font-weight: 200;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 1px 0px 0px 15px;    
+    padding: 0;
+}
+
+.box-vantagens {   
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    width: 95%;   
+    margin-right: 10px;    
+}
+
+.box-vantagens p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding: 0;    
+}
+
+.check {
+    font-size: 25px;
+}
+
+.botao-pagamento {
+    text-align: center;    
+}
+
+.condicoes p {
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 10px;
+    color: rgb(83, 83, 83);
+    margin-left: 10px;
+}
+
+.rodape {
+    color: white;
+    background-color: black;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.rodape ul{
+    list-style: none;
+}
+
+.espacamento-individual {
+    height: 190px;
+}
+
+.espacamento-duo {
+    height: 155px;
+}
+
+.espacamento-familia {
+    height: 0px;
+}
+
+.espacamento-universitario {
+    height: 172px;
+}
+
+.encapsulamento {
+    width: 70%;
+    margin: 7px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 30%);
+    border-radius: 10px 10px 10px;
+    background-color: white;
+    padding: 5px;    
+}
+
+.botao-pagamento.condicoes {
+    display:flex;
+    justify-content: end;
+}
+
